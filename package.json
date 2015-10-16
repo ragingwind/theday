@@ -1,0 +1,35 @@
+{
+  "name": "theday",
+  "version": "0.0.0",
+  "description": "the day, after, before",
+  "license": "MIT",
+  "repository": "ragingwind/node-theday",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "theday",
+    "date",
+    "day"
+  ],
+  "dependencies": {
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.2.0",
+    "xo": "*"
+  }
+}
