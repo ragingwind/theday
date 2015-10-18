@@ -1,4 +1,4 @@
-# theday [![Build Status](https://travis-ci.org/ragingwind/theday.svg?branch=master)](https://travis-ci.org/ragingwind/theday)
+# theday [![Build Status](https://travis-ci.org/ragingwind/node-theday.svg?branch=master)](https://travis-ci.org/ragingwind/node-theday)
 
 > the day, after, before
 
