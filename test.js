@@ -1,9 +1,5 @@
 import test from 'ava';
 import theday from './';
-// import mkdirp from 'mkdirp';
-// import rimraf from 'rimraf';
-// import fs from 'fs';
-// import path from 'path';
 
 function compareDate(t, s) {
 	return t.getDate() === s.getDate() &&
