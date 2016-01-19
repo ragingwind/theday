@@ -11,7 +11,6 @@ test('return today', t => {
 	var td = theday();
 	var c = new Date();
 	t.ok(compareDate(c, td));
-	t.end();
 });
 
 test('return yesterday', t => {
@@ -19,7 +18,6 @@ test('return yesterday', t => {
 	var c = new Date();
 	c.setDate(c.getDate() - 1);
 	t.ok(compareDate(c, td));
-	t.end();
 });
 
 test('return tomorrow', t => {
@@ -27,5 +25,4 @@ test('return tomorrow', t => {
 	var c = new Date();
 	c.setDate(c.getDate() + 1);
 	t.ok(compareDate(c, td));
-	t.end();
 });
