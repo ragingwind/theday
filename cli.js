@@ -14,7 +14,7 @@ const cli = meow({
 	  Thu Oct 15 15:34:53 KST 2015
 	  $ theday after
 	  Thu Oct 17 15:34:53 KST 2015
-		$ theday June 13 2016
+		$ theday 'June 13 2016'
 		Web Jun 13 2016 10:22:22 GMT+0900 (KST)
 	`]
 });
