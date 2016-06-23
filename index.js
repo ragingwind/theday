@@ -4,7 +4,7 @@ const Table = {
 };
 
 module.exports = function (opts) {
-	let date = new Date();
+	var date = new Date();
 
 	if (opts) {
 		const gap = Table[opts];
