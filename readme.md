@@ -1,6 +1,6 @@
 # theday [![Build Status](https://travis-ci.org/ragingwind/theday.svg?branch=master)](https://travis-ci.org/ragingwind/theday)
 
-> the day, after, before
+> 📅the day, after, before and someday
 
 
 ## Install
@@ -23,37 +23,25 @@ theday('before');
 
 theday('after');
 //=> Thu Oct 15 15:34:53 KST 2015
+
+theday('June 10 2016')
+// => Fri Jun 10 2016 00:00:00 GMT+0900 (KST)
 ```
 
 ## API
 
-### theday(gap)
+### theday(option)
 
-#### gap
+#### option
 
 Type: `string`
 
-a gap from today
+a gap from today or specific day you want know full datetime
 
 ## CLI
 
 ```
-$ npm install --global theday
-```
-
-```
 $ theday --help
-
-  Usage
-    theday [gab]
-
-  Examples
-    $ theday
-		Fri Oct 16 15:34:53 KST 2015
-		$ theday before
-		Thu Oct 15 15:34:53 KST 2015
-		$ theday after
-		Thu Oct 15 15:34:53 KST 2015
 ```
 
 ## License
