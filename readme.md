@@ -1,6 +1,6 @@
 # theday [![Build Status](https://travis-ci.org/ragingwind/theday.svg?branch=master)](https://travis-ci.org/ragingwind/theday)
 
-> 📅the day, after, before and someday
+> 📅 the day, after, before and someday
 
 
 ## Install
