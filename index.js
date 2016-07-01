@@ -5,15 +5,13 @@ const Table = {
 
 module.exports = function (opts) {
 	var date = new Date();
-
 	if (opts) {
 		const gap = Table[opts];
 		if (gap) {
 			date.setDate(date.getDate() + gap);
 		} else {
 			try {
-				const prev = new Date(opts);
-				date.setDate(prev.getDate());
+				date = new Date(opts);
 			} catch (err) {
 				date = undefined;
 			}
